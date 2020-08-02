@@ -10,7 +10,8 @@ class TaskSerializer(serializers.HyperlinkedModelSerializer):
             'title',
             'description',
             'start_date',
-            'pomodoro_counts'
+            'pomodoro_counts',
+            'project'
         )
 
 
@@ -21,6 +22,5 @@ class ProjectSerializer(serializers.HyperlinkedModelSerializer):
             'title',
             'description',
             'start_date',
-            'pomodoro_counts',
-            'task'
+            'pomodoro_counts'
         )
